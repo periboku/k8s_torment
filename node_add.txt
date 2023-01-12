@@ -1,0 +1,11 @@
+EKS: 
+Create a role 
+	AmazonEKSWorkerNodePolicy
+    	AmazonEKS_CNI_Policy
+    	AmazonEC2ContainerRegistryReadOnly
+
+eks > add node Group
+choose new role
+server type
+scaling min, max, desired
+
