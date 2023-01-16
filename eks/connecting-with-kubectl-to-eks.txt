@@ -1,0 +1,10 @@
+to connect: 
+aws sts get-caller-identity
+aws eks --region region update-kubeconfig --name cluster_name
+
+context infos are here:
+%USERPROFILE%\.kube\config.
+
+kubectl config get-contexts
+kubectl config use-context <desired-context> 
+
